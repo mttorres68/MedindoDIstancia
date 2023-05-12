@@ -1,0 +1,170 @@
+[
+	{
+		"ponto":1,
+		"local":"Drogaria União",
+		"lat":-6.76718620245407,
+		"lon":-43.0215998069604,
+		"pontos_alcancaveis":"2;11",
+		"distancia_real":"84.49;110.25"
+	},
+	{
+		"ponto":2,
+		"local":"Esquina Igreja",
+		"lat":-6.76793880641175,
+		"lon":-43.0215709496876,
+		"pontos_alcancaveis":"1;3;12",
+		"distancia_real":"84.49;103.00;113.00"
+	},
+	{
+		"ponto":3,
+		"local":"Granja Leão",
+		"lat":-6.76885845672127,
+		"lon":-43.0214988132572,
+		"pontos_alcancaveis":"2;4",
+		"distancia_real":"186.00;111.20"
+	},
+	{
+		"ponto":4,
+		"local":"GigaBites",
+		"lat":-6.76878643276312,
+		"lon":-43.0204944028716,
+		"pontos_alcancaveis":"3;5;12",
+		"distancia_real":"111.20;92.00;101"
+	},
+	{
+		"ponto":5,
+		"local":"Drogaria PagMenos",
+		"lat":-6.76872141035052,
+		"lon":-43.0196630496312,
+		"pontos_alcancaveis":"4;6;13",
+		"distancia_real":"92.00;78.17;101.05"
+	},
+	{
+		"ponto":6,
+		"local":"Paraiba",
+		"lat":-6.76868678971887,
+		"lon":-43.0189560159711,
+		"pontos_alcancaveis":"5;7;15",
+		"distancia_real":"78.17;152"
+	},
+	{
+		"ponto":7,
+		"local":"Mercado Central",
+		"lat":-6.7685711928508,
+		"lon":-43.0175800629520,
+		"pontos_alcancaveis":"6;8;21",
+		"distancia_real":"152;105"
+	},
+	{
+		"ponto":8,
+		"local":"Drogaria Globo",
+		"lat":-6.76797585186948,
+		"lon":-43.0183128683907,
+		"pontos_alcancaveis":"9;7;19",
+		"distancia_real":"39;105"
+	},
+	{
+		"ponto":9,
+		"local":"Prime Cell",
+		"lat":-6.76771042412166,
+		"lon":-43.0185437798245,
+		"pontos_alcancaveis":"8;15;10;18",
+		"distancia_real":"39;60;17"
+	},
+	{
+		"ponto":10,
+		"local":"Subway",
+		"lat":-6.76695045067788,
+		"lon":-43.019877359859,
+		"pontos_alcancaveis":"9;11;14;16",
+		"distancia_real":"17;81;210"
+	},
+	{
+		"ponto":11,
+		"local":"Papelaria Globo",
+		"lat":-6.76705748127151,
+		"lon":-43.0206055493434,
+		"pontos_alcancaveis":"1;10;12",
+		"distancia_real":"111.00;81.00;92.00"
+	},
+	{
+		"ponto":12,
+		"local":"Pub Pride",
+		"lat":-6.76788306216676,
+		"lon":-43.0205507817435,
+		"pontos_alcancaveis":"2;4;11;13",
+		"distancia_real":"112.82;100.64"
+	},
+	{
+		"ponto":13,
+		"local":"Galeria dos Calçados",
+		"lat":-6.7678187320737,
+		"lon":-43.0197684656941,
+		"pontos_alcancaveis":"5; 12; 14",
+		"distancia_real":"10105;8700;20"
+	},
+	{
+		"ponto":14,
+		"local":"Nortista",
+		"lat":-6.76764311827105,
+		"lon":-43.0197814351763,
+		"pontos_alcancaveis":"10; 13; 15",
+		"distancia_real":"7800; 2000; 10061"
+	},
+	{
+		"ponto":15,
+		"local":"Clinicou",
+		"lat":-6.76799199336188,
+		"lon":-43.0190105689884,
+		"pontos_alcancaveis":"6; 9; 14",
+		"distancia_real":"7749;  6131; 10061"
+	},
+	{
+		"ponto":16,
+		"local":"Impacto Kids",
+		"lat":-6.7663267823643,
+		"lon":-43.0199349705603,
+		"pontos_alcancaveis":"10; 17",
+		"distancia_real":"6964; 15431 "
+	},
+	{
+		"ponto":17,
+		"local":"Sobral",
+		"lat":-6.76620190217362,
+		"lon":-43.0185431941594,
+		"pontos_alcancaveis":"16; 18",
+		"distancia_real":"15431; 12673"
+	},
+	{
+		"ponto":18,
+		"local":"Company Odonto",
+		"lat":-6.76716554683158,
+		"lon":-43.017930449884,
+		"pontos_alcancaveis":"9; 17; 19",
+		"distancia_real":"9087; 12673; 6791"
+	},
+	{
+		"ponto":19,
+		"local":"DG Embalagens",
+		"lat":-6.76760120229613,
+		"lon":-43.0174994812226,
+		"pontos_alcancaveis":"8; 18; 20",
+		"distancia_real":"99.01; 67.91; 122.32"
+	},
+	{
+		"ponto":20,
+		"local":"Armazem Zé Mendes",
+		"lat":-6.7682889791754,
+		"lon":-43.0166349846579,
+		"pontos_alcancaveis":"19; 21",
+		"distancia_real":"122.32; 155.13"
+	},
+	{
+		"ponto":21,
+		"local":"Droga Vida",
+		"lat":-6.76893716772531,
+		"lon":-43.0170946317711,
+		"pontos_alcancaveis":"7; 20",
+		"distancia_real":"67.30;  155.13"
+	}
+]
