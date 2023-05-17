@@ -31,7 +31,7 @@ def a_estrela(pontos, origem, destino):
     g = {}  # custo atual do ponto de origem até cada ponto
     h = {}  # estimativa de custo do ponto até o destino
     f = {}  # custo total (g + h) do ponto
-    pais = {}  # armazena o pai de cada ponto
+    filhos = {}  # armazena o filho de cada ponto
     abertos = []  # lista de pontos abertos para explorar
 
     # Inicializa os custos com infinito, exceto para a origem
@@ -50,9 +50,10 @@ def a_estrela(pontos, origem, destino):
         if atual == destino:
             # Chegou ao ponto de destino
             caminho = []
-            while atual in pais:
+            while atual in filhos:
                 caminho.insert(0, atual)
-                atual = pais[atual]
+                atual = filhos[atual]
+                print(atual)
             caminho.insert(0, origem)
             return caminho
 
@@ -63,6 +64,9 @@ def a_estrela(pontos, origem, destino):
                 continue
 
             vizinho = int(vizinho_str)
+            # print(vizinho)
+            # print(filhos)
+            # print(abertos)
 
             # Calcula o custo atualizado para o vizinho
             custo_atualizado = g[atual] + calcular_distancia(
@@ -70,9 +74,11 @@ def a_estrela(pontos, origem, destino):
                 pontos[vizinho - 1]['lat'], pontos[vizinho - 1]['lon']
             )
 
+            # print(custo_atualizado)
+
             if custo_atualizado < g[vizinho]:
-                # Atualiza os custos e o pai do vizinho
-                pais[vizinho] = atual
+                # Atualiza os custos e o filho do vizinho
+                filhos[vizinho] = atual
                 g[vizinho] = custo_atualizado
                 f[vizinho] = g[vizinho] + h[vizinho]
 
@@ -83,14 +89,11 @@ def a_estrela(pontos, origem, destino):
     # Não foi possível encontrar um caminho
     return None
 
-# Exemplo de uso
 
-# print('\n1-Drogaria União \n2-Esquina Igreja \n3-Granja Leão \n4-GigaBites \n5-Drogaria PagMenos\n6-Paraiba\n7-Mercado Central\n8-Drogaria Globo\n9-Prime  Cell\n10-Subway\n11-Papelaria Globo\n12-Pub Pride\n13-Galeria dos Calçados\n14-Nortista\n15-Clinicou\n16-Impacto Kids\n17-Sobral\n18-Company Odonto\n19-DG Embalagens\n20-Armazem Zé Mendes\n21-Droga Vida')
-# origem = int(input('Escolha o ponto de origin: '))
-# destino = int(input('Escolha o ponto de origin: '))
 
-origem = 12
-destino = 6
+print('\n1-Drogaria União \n2-Esquina Igreja \n3-Granja Leão \n4-GigaBites \n5-Drogaria PagMenos\n6-Paraiba\n7-Mercado Central\n8-Drogaria Globo\n9-Prime  Cell\n10-Subway\n11-Papelaria Globo\n12-Pub Pride\n13-Galeria dos Calçados\n14-Nortista\n15-Clinicou\n16-Impacto Kids\n17-Sobral\n18-Company Odonto\n19-DG Embalagens\n20-Armazem Zé Mendes\n21-Droga Vida')
+origem = int(input('Escolha o ponto de origin: '))
+destino = int(input('Escolha o ponto de destino: '))
 
 caminho = a_estrela(date_map, origem, destino)
 
