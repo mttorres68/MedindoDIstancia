@@ -53,9 +53,11 @@ def a_estrela(pontos, origem, destino):
             while atual in filhos:
                 caminho.insert(0, atual)
                 atual = filhos[atual]
-                print(atual)
+                # print(atual)
             caminho.insert(0, origem)
             return caminho
+        
+        print(filhos)
 
         abertos.remove(atual)
 
