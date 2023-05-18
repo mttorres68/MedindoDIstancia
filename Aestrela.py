@@ -96,7 +96,7 @@ def a_estrela(pontos, origem, destino):
       #print(f"Ponto: {ponto}")
       #print(f"g: {g[ponto]}, h: {h[ponto]}, f: {f[ponto]}")
       print(filhos)
-    print("")
+    print(" ")
 
   return None
 
