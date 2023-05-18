@@ -93,10 +93,10 @@ def a_estrela(pontos, origem, destino):
     print(f"**** Ponto Atual: {atual} ****")
     print("____ Pontos Visitados ____")
     for ponto in abertos:
-      #print(f"Ponto: {ponto}")
-      #print(f"g: {g[ponto]}, h: {h[ponto]}, f: {f[ponto]}")
-      print(filhos)
-    print(" ")
+      print(f"Ponto: {ponto}")
+      print(f"g: {g[ponto]}, h: {h[ponto]}, f: {f[ponto]}")
+      # print(filhos)
+      print("")
 
   return None
 
